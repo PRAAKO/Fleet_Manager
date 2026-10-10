@@ -4,7 +4,8 @@ on:
   push:
     branches: [ main ]
 
-jobs:  build:
+jobs:
+  build:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Code
@@ -20,3 +21,4 @@ jobs:  build:
         with:
           name: package
           path: bin/*.apk
+          
