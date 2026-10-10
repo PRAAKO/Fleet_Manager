@@ -24,3 +24,9 @@ android.min_api = 21
 
 # (int) Android SDK version to use
 android.sdk = 33
+
+# (str) Version of the Android build tools to use
+android.build_tools_version = 33.0.0
+
+# (bool) Skip / Accept SDK license automatically
+android.accept_sdk_license = True
