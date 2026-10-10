@@ -21,6 +21,9 @@ android.api = 33
 android.min_api = 21
 android.sdk = 33
 
+# Explicitly set compatible NDK version to fix the error
+android.ndk = 25b
+
 # Explicitly fix build tools version to avoid missing aidl error
 android.build_tools_version = 33.0.2
 
