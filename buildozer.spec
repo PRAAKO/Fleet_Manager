@@ -16,10 +16,15 @@ orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 
-# Target Android API
+# Target Android API & SDK
 android.api = 33
 android.min_api = 21
 android.sdk = 33
 
-# Log level to get more details if it fails again (2 = debug)
+# Explicitly fix build tools version to avoid missing aidl error
+android.build_tools_version = 33.0.2
+
+# Automatically accept SDK licenses
+android.accept_sdk_license = True
+
 log_level = 2
